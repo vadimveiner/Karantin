@@ -41,7 +41,7 @@ namespace WpfApp2
 			timer1.Start();
 			System.Windows.Threading.DispatcherTimer timer3 = new System.Windows.Threading.DispatcherTimer();
 			timer3.Tick += new EventHandler(Timer3);
-			timer3.Interval = new TimeSpan(0,0,14);
+			timer3.Interval = new TimeSpan(0,0,15);
 			timer3.Start();
 		}
 
